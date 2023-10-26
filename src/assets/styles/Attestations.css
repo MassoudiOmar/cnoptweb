@@ -1,0 +1,143 @@
+.Attestations-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.inner-navbar {
+    width: 20%;
+    height: 20rem;
+    align-items: baseline;
+    margin-top: 5%;
+    flex-direction: column;
+    display: flex;
+    align-items: flex-end;
+}
+
+.Attestations-body {
+    width: 65%;
+    height: 30rem;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+
+}
+
+.section-one-Attestations {
+    flex: 0.5;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.AttestationExercice {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.download-language-btn {
+    background-color: #03BCCD;
+    width: 48%;
+    height: 2rem;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.attestation-text {
+    font-size: 1.5rem;
+    color: white
+}
+
+.Attestation-title-section {
+    background-color: #00B16A;
+    width: 90%;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem
+}
+
+.download-section {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.Attestations-title-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    align-items: baseline
+}
+
+.Attestations-title {
+    font-size: 2.3rem;
+    color: #00B16A;
+    font-weight: 600;
+}
+
+.line {
+    height: 1.5px;
+    width: 76%;
+    background-color: #00B16A;
+    align-items: end;
+    display: flex;
+}
+
+.section-two-Attestations {
+    flex: 1;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+}
+.demande-title{
+    margin-top: 1rem;
+    height: 3rem;
+    width: 50%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    border: 1px solid #00B16A;
+    border-radius:0.5rem;
+    color:#00B16A;
+    font-size: 1.2rem;
+
+}
+.demande-btn{
+    margin-top: 1rem;
+    height: 2rem;
+    width: 30%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    border-radius:2rem;
+    color:#ffffff;
+    font-size: 1rem; 
+    background-color:#03BCCD
+}
+@media screen and (max-width: 960px) {
+    .inner-navbar {
+        display: none;
+    }
+}

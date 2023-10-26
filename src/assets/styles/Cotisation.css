@@ -1,0 +1,617 @@
+.Cotisation-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.inner-navbar {
+    width: 20%;
+    height: 20rem;
+    align-items: baseline;
+    margin-top: 5%;
+    flex-direction: column;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.Cotisation-body {
+    width: 65%;
+    height: 50rem;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+
+}
+
+
+
+
+
+.section-one-cotisation {
+    flex: 1;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.section-two-cotisation {
+    flex: 2;
+    width: 90%;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.cotisation-title-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    align-items: baseline
+}
+
+.cotisation-title {
+    font-size: 2.3rem;
+    color: #00B16A;
+    font-weight: 600;
+}
+
+.line {
+    height: 1.5px;
+    width: 76%;
+    background-color: #00B16A;
+    align-items: end;
+    display: flex;
+}
+
+.solde-histo-section {
+    display: flex;
+    flex-direction: row;
+    flex: 4;
+    width: 100%;
+}
+
+.solde-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.historique-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    overflow-y: auto;
+    max-height: 250px;
+    width: 100%;
+
+}
+.historique-section2 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    overflow-y: auto;
+    max-height: 200px;
+    width: 100%;
+
+}
+
+
+.solde-box {
+    height: 80%;
+    width: 70%;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(83, 83, 83, 0.2);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.inner-histo-section {
+    width: 80%;
+    padding: 0.3rem;
+
+}
+
+.cotisation-histo-date {
+    color: gray;
+    font-size: 1rem;
+}
+
+.inner-histo-section-two {
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    align-items: center
+}
+
+.Numérodetransaction {
+    color: #00B16A;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.code {
+    color: #383F73;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.montant {
+    background-color: #00B16A;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    border-radius: 0.5rem
+}
+
+.historique-section::-webkit-scrollbar {
+    width: 6px;
+}
+
+.historique-section::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+.historique-section2::-webkit-scrollbar {
+    width: 6px;
+}
+
+.historique-section2::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+.soldeActual {
+    display: flex;
+    height: 40%;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+}
+
+.soldeMotant {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+}
+
+.montant-container {
+    background-color: #03BCCD;
+    height: 90%;
+    width: 90%;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.solde-Text {
+    font-size: 130%;
+    text-align: center;
+    color: #03BCCD
+}
+
+.underLine {
+    border-bottom: 1px solid #383F73;
+    width: 70%;
+    margin-top: 5%;
+}
+
+.paiment-title {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-inner-container {
+    width: 100%;
+    flex: 6;
+    display: flex;
+    flex-direction: row;
+}
+
+.MontantDeLaCotisation {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ModeDePaiement {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ModeDePaiement-section-one {
+    width: 90%;
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.part-one {
+    background-color: #00B16A;
+    width: 11rem;
+    height: 2.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    color: white;
+    position: absolute;
+    top: 40.5rem
+}
+
+.part-two {
+    background-color: #00b16a4c;
+    width: 80%;
+    height: 14rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 1rem;
+    color: white;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+
+.checkbox-container {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 450;
+}
+
+.part-three {
+    background-color: #383F73;
+    width: 11rem;
+    height: 2.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    color: white;
+    position: absolute;
+    top: 54.5rem
+}
+
+.ModeDePaiement-section-two {
+    width: 90%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.last-btns {
+    width: 80%;
+    height: 2.2rem;
+    background-color: #03BCCD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem
+}
+
+.title-container {
+    height: 55%;
+    width: 30%;
+    background-color: #383F73;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-two-title {
+    color: white;
+    font-size: 1.2rem;
+    font-Weight: 500
+}
+
+.section-two-box {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(83, 83, 83, 0.2);
+    height: 90%;
+    width: 90%;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input-container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.input-title {
+    color: #00B16A;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 10px;
+}
+
+.input-one {
+    height: 2.3rem;
+    border: none;
+    border-radius: 2rem;
+    box-shadow: 0 0 10px rgba(83, 83, 83, 0.2);
+    padding: 1rem;
+    font-size: 1.2rem;
+    color:#383F73
+}
+
+.input-two {
+    height: 8rem;
+    border: none;
+    border-radius: 2rem;
+    box-shadow: 0 0 10px rgba(83, 83, 83, 0.2);
+
+}
+
+.paiment-text-holder {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.cotisation-checkbox {
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.cotisation-checkbox:checked {
+    background-color: rgb(0, 0, 0);
+    border: 3px solid rgb(255, 255, 255);
+}
+/* Skeleton Styles */
+.skeleton-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 12px 0;
+    border-bottom: 1px solid #e0e0e0;
+    width: 80%;
+    flex-direction: column;
+  }
+  
+  .skeleton-date {
+    width: 30%;
+    height: 16px;
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200% 100%;
+    animation: loading 1.5s infinite;
+    margin-bottom: 5px;
+    border-radius:1rem
+  }
+  
+  .skeleton-transaction-info {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .skeleton-transaction-id {
+    width: 80px;
+    height: 16px;
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200% 100%;
+    animation: loading 1.5s infinite;
+    border-radius:1rem
+  }
+  
+  .skeleton-transaction-value {
+    width: 60px;
+    height: 16px;
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200% 100%;
+    animation: loading 1.5s infinite;
+    border-radius:1rem
+  }
+  
+  @keyframes loading {
+    0% {
+      background-position: -200% 0;
+    }
+    100% {
+      background-position: 200% 0;
+    }
+  }
+  
+@media screen and (max-width: 960px) {
+    .inner-navbar {
+        display: none;
+
+    }
+
+    .checkbox-container {
+        width: 100%;
+        flex: 1;
+
+    }
+
+    .Numérodetransaction {
+        width: 80%;
+    }
+
+    .Cotisation-body {
+        width: 100%;
+
+    }
+
+    .ModeDePaiement-section-one {
+        width: 90%;
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .part-one {
+        top: 90%;
+        width: 30%;
+    }
+
+    .part-three {
+        top: 133.5%;
+        width: 30%;
+
+    }
+
+    .part-two {
+        width: 100%;
+        padding: 0.5rem;
+        height: 17rem;
+
+    }
+
+    .solde-histo-section {
+        flex-wrap: wrap;
+        width: 90%;
+    }
+
+    .section-two-box {
+        height: 75%;
+    }
+
+
+    .section-one-cotisation {
+        width: 100%;
+    }
+
+    .solde-section {
+        width: 100%;
+    }
+
+    .solde-box {
+        width: 90%;
+        flex: 1;
+        display: flex;
+        height: 100%;
+    }
+
+
+    .title-container {
+        height: 40%;
+        width: 35%;
+    }
+
+    .section-inner-container {
+        height: 50%;
+    }
+
+    .Cotisation-body {
+        height: 60rem;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .solde-histo-section {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .input-two {
+        height: 5rem;
+    }
+
+    .part-one {
+        top: 178%;
+        width: 50%;
+    }
+
+    .part-three {
+        top: 221%;
+        width: 50%;
+    }
+
+    .MontantDeLaCotisation {
+        flex: 1.5;
+    }
+
+    .section-two-box {
+        height: 80%;
+        width: 100%;
+    }
+
+    .Cotisation-body {
+        height: 90rem;
+    }
+
+    .inner-histo-section {
+        width: 100%;
+    }
+
+    .Numérodetransaction {
+        width: 80%;
+    }
+
+    .title-container {
+        height: 30%;
+        width: 60%;
+    }
+
+    .section-inner-container {
+        flex-direction: column;
+    }
+
+    .ModeDePaiement-section-two {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 0.8rem;
+    }
+
+    .ModeDePaiement {
+        flex: 1.5;
+    }
+}

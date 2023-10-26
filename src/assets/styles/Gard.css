@@ -1,0 +1,83 @@
+.Gard-section {
+    display: flex;
+    width: 90%;
+    flex: 1;
+    margin-top: 2rem;
+}
+
+.calendar-container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    height: 60%;
+}
+.mounth{
+    color:black;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.date-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    height: 30%;
+}
+
+.calendar {
+    width: 1rem;
+    height: 1rem;
+}
+
+.table-title {
+    display: flex;
+    flex: 1;
+    align-items:center;
+    justify-content: center;
+    color:#205072;
+    font-size: 1.2rem;
+    font-weight: 450;
+
+}
+
+.table-date {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content:center;
+    border: 0.8px solid #00B16A;
+    border-radius: 1rem;
+    padding: 0.5rem;
+
+}
+
+.table-button {
+    display: flex;
+    flex: 1;
+    align-items:center;
+    justify-content: end;
+}
+.btn-icon{
+    height: 2rem;
+    width: 2rem;
+    border-radius:0.5rem;
+    background-color:#00B16A;
+    color: white;
+    margin: 0.5rem;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+.custom-input{
+    border-radius: 15px;
+    border: 1px #f80c0c solid;
+    padding: 4px 12px;
+    background-color: white;
+    height: 122px;
+    box-shadow: 0 0 2px #0074d9;
+}
+@media screen and (max-width: 960px) {
+    .inner-navbar {
+        display: none;
+    }
+}

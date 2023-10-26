@@ -1,0 +1,29 @@
+.navigation-btns {
+    width: 80%;
+    height: 2.4rem;
+    margin-bottom: 0.7rem;
+    border-radius: 0.5rem;
+    border-color: transparent;
+    border-width: 0.1px;
+    background-color: #383F73;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.Cotisation-btn {
+    width: 80%;
+    height: 2.4rem;
+    margin-bottom: 0.7rem;
+    border-radius: 0.5rem;
+    border-color: transparent;
+    border-width: 0.1px;
+    background-color: #383f7347;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color:grey
+}
